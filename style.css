@@ -1,0 +1,137 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    :root {
+        --blue: #1e90ff;
+        --white: #ffffff; 
+      }
+      
+
+    body
+    {
+        /* background-image: url("images/pattern-background-desktop.svg"); */
+        /* overflow: hidden; */
+        /* background-color: aquamarine; */
+        margin: 0;
+        padding: 0;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    img
+    {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .box
+    {
+        border: 2px solid var(--white);
+        border-radius: 20px;
+        background-color: var(--white);
+        position: absolute;
+        width: 25%;
+        height: 80%;
+        left: 500px;
+        top: 60px;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .box img
+    {
+        width: 100%;
+        height: 35%;
+        border-radius: 15px 15px 1px 1px;
+    }
+
+    .contents
+    {
+        display: flex;
+        border: 2px solid ;
+        margin-top: 20px;
+        /* height: 1%; */
+    }
+
+    .contents img
+    {
+        width: 10%;
+        margin-top: 20px;
+    }
+
+    .header
+    {
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+
+    .btn
+    {
+        position: absolute;
+        right: 5%;
+        bottom: 27%;
+        border: none;
+        background-color: var(--white);
+        color: var(--blue);
+        font-size: medium;
+        text-decoration: underline;
+    }
+
+    .btn2
+    {
+        border: 1px solid;
+        position: absolute;
+        bottom: 13%;
+        left: 20%;
+        background-color: var(--blue);
+        color: var(--white);
+        box-shadow: 10px 10px 10px rgb(100, 100, 255);
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 5px 40px;
+    }
+
+    .btn3
+    {
+        border: none;
+        position: absolute;
+        bottom: 5%;
+        left: 35%;
+        background-color: var(--white);
+        cursor: pointer;
+    }
+
+
+    @media screen and (max-width:1260px)
+    {
+        .box
+        {
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: white;
+            position: absolute;
+            width: 25%;
+            height: 90%;
+            left: 500px;
+            top: 60px;       
+        }
+
+        .btn2{
+            bottom: 14%;
+            left: 15%;
+        }
+
+        .btn3
+    {
+        bottom: 7%;
+        left: 35%;
+    }
+
+    .btn
+    {
+        right: 5%;
+        bottom: 29%;
+    }
+
+    }
