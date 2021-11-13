@@ -9,9 +9,6 @@
 
     body
     {
-        /* background-image: url("images/pattern-background-desktop.svg"); */
-        /* overflow: hidden; */
-        /* background-color: aquamarine; */
         margin: 0;
         padding: 0;
         background-color: hsl(225, 100%, 94%);
@@ -34,9 +31,6 @@
         height: 80%;
         left: 500px;
         top: 60px;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
     }
 
     .box img
@@ -134,4 +128,11 @@
         bottom: 29%;
     }
 
+    }
+
+
+    .attribution
+    {
+        position: absolute;
+        bottom: 0%;
     }
